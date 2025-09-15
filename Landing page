@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Guide: Property Investment vs Other Investments | Hekano Property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #b38f4b 0%, #8b6914 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: #b38f4b;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .header h1 {
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: white;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .headline {
+            font-size: 32px;
+            color: #333;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .subheadline {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.4;
+        }
+
+        .benefits {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        .benefit {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f8f8f8;
+            border-radius: 8px;
+        }
+
+        .benefit-icon {
+            width: 20px;
+            height: 20px;
+            background: #b38f4b;
+            border-radius: 50%;
+            margin-right: 15px;
+            flex-shrink: 0;
+            position: relative;
+        }
+
+        .benefit-icon::after {
+            content: '✓';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .benefit-text {
+            color: #333;
+            font-size: 16px;
+        }
+
+        .form-container {
+            background: #f8f8f8;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .form-title {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .form-row .input-group {
+            flex: 1;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="tel"]:focus {
+            border-color: #b38f4b;
+        }
+
+        .download-btn {
+            width: 100%;
+            background: #b38f4b;
+            color: white;
+            padding: 18px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background: #8b6914;
+            transform: translateY(-2px);
+        }
+
+        .trust-indicators {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .trust-item {
+            text-align: center;
+            flex: 1;
+        }
+
+        .trust-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #b38f4b;
+        }
+
+        .trust-text {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                margin: 10px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .headline {
+                font-size: 26px;
+            }
+            
+            .subheadline {
+                font-size: 16px;
+            }
+
+            .form-row {
+                flex-direction: column;
+                gap: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://i.imgur.com/ipX6Dq6.png" alt="Hekano Property Logo" class="logo">
+            <h1>Free Investment Guide</h1>
+            <p>Make informed decisions about your savings</p>
+        </div>
+
+        <div class="content">
+            <h2 class="headline">Property Investment vs Other Investments</h2>
+            <p class="subheadline">Discover which investment strategy could turn your savings into wealth over the next 10 years</p>
+
+            <div class="benefits">
+                <div class="benefit">
+                    <div class="benefit-icon"></div>
+                    <div class="benefit-text">Compare real returns from property, stocks, bonds & savings accounts</div>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-icon"></div>
+                    <div class="benefit-text">See 10-year wealth projections with £100k starting capital</div>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-icon"></div>
+                    <div class="benefit-text">Understand tax implications and inflation impact</div>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-icon"></div>
+                    <div class="benefit-text">Get personalised recommendations based on your age & goals</div>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <h3 class="form-title">Download Your Free Guide</h3>
+                <form id="downloadForm">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" name="phone" id="phone" placeholder="Phone Number" required>
+                    </div>
+                    <button type="submit" class="download-btn">Get My Free Guide</button>
+                </form>
+            </div>
+
+            <div class="trust-indicators">
+                <div class="trust-item">
+                    <div class="trust-number">5</div>
+                    <div class="trust-text">Investment types analysed</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-number">10</div>
+                    <div class="trust-text">Year comparison</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-number">100%</div>
+                    <div class="trust-text">Free download</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('downloadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const firstName = document.getElementById('firstName').value;
+            const lastName = document.getElementById('lastName').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            
+            if (firstName && lastName && email && phone) {
+                alert('Thank you ' + firstName + '! Your guide will be sent to ' + email + ' shortly.');
+                // Here you would typically integrate with your email service
+                // For now, this is just a placeholder
+            }
+        });
+    </script>
+</body>
+</html>
